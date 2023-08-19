@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">    
+    <title>Kitchen Lighting</title>
+</head>
+<body>
+    
+    <div class="heading">
+        <h1>Welcome to the world of kitchen lighting!</h1>
+    </div>
+
+    <div class="container">
+        <div class="item one">
+            <h2>Artemis</h2>
+            <p class="description">Cylinder Pendant</p>
+            <p class="price">$225</p>            
+        </div>
+        <div class="item two">
+            <h2>Calypso</h2>
+            <p class="description">Globe Pendant</p>
+            <p class="price">$350</p>
+        </div>
+        <div class="item three selected">
+            <h2>Helios</h2>
+            <p class="description">Luxury Globe Light</p>
+            <p class="price">$300</p>
+        </div>
+        <div class="item four">
+            <h2>Poseidon</h2>
+            <p class="description">Cone Pendant</p>
+            <p class="price">$350</p>
+        </div>
+        <div class="item five">
+            <h2>Atlas</h2>
+            <p class="description">Dome Light</p>
+            <p class="price">$270</p>
+        </div>        
+        </div>
+
+        <div class="heading">
+            <h3>Send us a message and we will help you to light a kitchen!</h3>    
+        </div>
+
+        <form 
+        action="https://formspree.io/f/xdobykgl"
+        method="POST">
+            <div class="heading">
+                <label>Your email:  
+                    <input type="email" class="text-input" name="email" placeholder="Your email..." required="">
+                </label>
+            </div>
+            
+            <div class="heading">
+                <label>Your message: 
+                    <textarea class="text-input" name="message" placeholder="Type your message here..." required=""></textarea>
+                </label>
+            </div>
+            
+            <div class="heading">
+                <button class="btn" type="submit">Send</button>
+            </div>
+            
+            </form>    
+    
+    <script src="index.js"></script>
+</body>
+</html>
